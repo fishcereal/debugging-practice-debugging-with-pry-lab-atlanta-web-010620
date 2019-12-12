@@ -1,4 +1,4 @@
-require_relative '../first_priority/that_was_unexpected'
+require_relative '../first_priority/that_was_unexpected.rb'
 
 describe "that_was_unexpected" do
   let(:baller) {Person.new('Jordan', true)}

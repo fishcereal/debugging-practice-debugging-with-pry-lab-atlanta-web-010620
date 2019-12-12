@@ -17,7 +17,7 @@ end
 
 def engage
   date = generate_star_date
-  return state_log(date) +  greet_crew(creww)
+  return state_log(date), greet_crew(creww)
 end
 
 #     expect(engage).to eq(["Hello Geordi.", "Hello Data.", "Hello Worf.", "Hello William.", "Hello Beverly.", "Hello Deanna."])

@@ -4,11 +4,11 @@ end
 
 
 def state_log(star_date)
-  return "Captain's Log, star date #{star_date}."
+  "Captain's Log, star date #{star_date}."
 end
 
 def creww
-  return ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
 def greet_crew (crew)

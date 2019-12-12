@@ -14,12 +14,14 @@ end
 def greet_crew (crew)
   array = []
   crew.each {|crew_member| array << "Hello #{crew_member}."}
+  puts array 
 end
 
 def engage
   date = generate_star_date
-  to_return = state_log(date) + greet_crew(creww)
-  return to_return
+  greet_crew(creww)
+  state_log(date)
+  
 end
 
 #     expect(engage).to eq(["Hello Geordi.", "Hello Data.", "Hello Worf.", "Hello William.", "Hello Beverly.", "Hello Deanna."])
